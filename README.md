@@ -12,7 +12,7 @@
 ---
 运行方式：
 * 安装依赖
-`
+```
 
 apt install python3-lxml
 pip3 install texttable  requests 
@@ -29,7 +29,7 @@ python3 高校录取查询.py <全省排名>
 ......
 
 
-`
+```
 
 查出来的是不低于这个名次的最接近的30条数据记录，按照年份逆序排列。
 
