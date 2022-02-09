@@ -3,7 +3,7 @@
 ---
 数据来源：gaoxiao.jszs.com
 ---
-运行环境：python3.7 + lxml  
+运行环境：python3.7 + lxml  + Texttable 
 ---
 原理：
 * 高校录取数据.py - 爬虫，自动抓取历年录取信息保存并生成相应的json文件
