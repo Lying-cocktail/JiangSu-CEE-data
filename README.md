@@ -14,12 +14,14 @@
 
 ```
 
-apt install python3-lxml
-pip3 install texttable  requests 
-mkdir -p data/hair
-python3 高校录取数据.py 
-python3 高校录取归档.py 
-python3 高校录取查询.py <全省排名>
+1 apt install python3-lxml
+2 pip3 install texttable  requests 
+3 mkdir -p data/hair
+4 python3 高校录取数据.py 
+5 python3 高校录取归档.py 
+6 python3 高校录取查询.py <全省名次>
+
+运行结果如下：
 
 +--------+--------------------+------+------------------+------+------+------+
 |  年份  |      学校名称      | 类别 |       批次       | 代码 | 位次 | 人数 |
