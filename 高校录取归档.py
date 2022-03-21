@@ -11,8 +11,8 @@ cur = conn.cursor()
 
 
 id = 0 
-for i in range(1,614):
-    fil = "data/hair/%d.json" % (i)
+for page in range(1,614):
+    fil = "data/hair/%d.json" % (page)
     if os.path.exists(fil) :
         print ( 'load from file %s' % (fil))
         f = open(fil,"rt")

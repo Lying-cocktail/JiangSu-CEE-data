@@ -8,11 +8,11 @@ from lxml import etree
 import json
 
 #该栏目共613页，所以生成范围1-613
-for i in range(1,614):
+for page in range(1,614):
     #生成网页连接
-    url = "https://gaoxiao.jszs.com/CollegeLine/index/sname/0/s/0-0-0-0-%d.html#tips" % (i)   #1-613
+    url = "https://gaoxiao.jszs.com/CollegeLine/index/sname/0/s/0-0-0-0-%d.html#tips" % (page)   #1-613
     #生成本地存储文件
-    fil = "data/hair/%d.html" % (i)    
+    fil = "data/hair/%d.html" % (page)    
     #检查本地是否存在
     if os.path.exists(fil) :
         #如果存在直接读取内容
@@ -31,7 +31,7 @@ for i in range(1,614):
         f.close()
         str = response.text
     #生成中间数据文件名称
-    fil = "data/hair/%d.json" % (i)
+    fil = "data/hair/%d.json" % (page)
     #如果存在中间数据文件，则不重复处理
     if os.path.exists(fil):
         continue
