@@ -1,7 +1,8 @@
 # JiangSu-CEE-data
 # 江苏高考分析助手
 ---
-数据来源：gaoxiao.jszs.com
+数据来源：gaoxiao.jszs.com  
+2021年数来自: www.jseea.cn
 ---
 运行环境：python3.7 + lxml  + Texttable 
 ---
@@ -44,3 +45,11 @@
 
 如果您觉得有用，请给个星星！
 
+
+---
+2022年6月更新
+
++ 从省招办下载2021年数据，江苏才试志愿投档线下载.py
++ 从下载的xls里读取投档数据 江苏才试志愿投档线归档.py
++ 插入sqlite数据库，学习了INSERT OR UPDATE,仅INSERT还是会有主键重复问题
++ 有兴趣自己做界面的可以下载cee-2021.db，数据库结构在高校录取归档.py的尾部
