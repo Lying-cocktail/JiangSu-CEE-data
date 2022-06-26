@@ -53,3 +53,6 @@
 + 从下载的xls里读取投档数据 江苏才试志愿投档线归档.py
 + 插入sqlite数据库，学习了INSERT OR UPDATE,仅INSERT还是会有主键重复问题
 + 有兴趣自己做界面的可以下载cee-2021.db，数据库结构在高校录取归档.py的尾部
+
++ 增加自动适配分数段
++ https://www.sohu.com/a/560678889_594272 获得一分一段 tesseract -l eng+chi_sim 图片OCR成文本
