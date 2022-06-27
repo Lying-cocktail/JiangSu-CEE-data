@@ -56,3 +56,5 @@
 
 + 增加自动适配分数段
 + https://www.sohu.com/a/560678889_594272 获得一分一段 tesseract -l eng+chi_sim 图片OCR成文本
+
++ 从2021年招生计划专刊PDF中获得专业组信息
